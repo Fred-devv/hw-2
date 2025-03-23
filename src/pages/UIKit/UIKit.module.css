@@ -1,0 +1,53 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.componentShowcase {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background-color: var(--color-background);
+  border-radius: 8px;
+}
+
+.componentTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.componentGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.componentCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.componentDescription {
+  font-size: 14px;
+  color: var(--color-secondary);
+} 
